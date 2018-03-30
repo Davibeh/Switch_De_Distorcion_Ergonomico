@@ -1,0 +1,6 @@
+11:15:47 **** Incremental Build of configuration Debug for project SWEmbeddedTutorials-ADC_Module_Example ****
+make -r -j8 all 
+make: Nothing to be done for `all'.
+
+11:15:48 Build Finished (took 161ms)
+
