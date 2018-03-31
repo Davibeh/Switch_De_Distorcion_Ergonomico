@@ -55,9 +55,9 @@ static T_UBYTE rub_ConversionInProgressFlag = FALSE;
  /******************************************
  * Private Prototypes
  ******************************************/
-static void app_ADC_Trigger(void);
-static T_UBYTE app_ADC_IsConversionCompleted(void);
-static T_UWORD app_ADC_GetValue(void);
+ void app_ADC_Trigger(void);
+T_UBYTE app_ADC_IsConversionCompleted(void);
+ T_UWORD app_ADC_GetValue(void);
  /******************************************
  * Code
  ******************************************/
@@ -87,7 +87,7 @@ void app_ADC_Init(void)
  * Function Name: app_ADC_Trigger
  * Description: TBD
  ***********************************************/
-static void app_ADC_Trigger(void)
+ void app_ADC_Trigger(void)
 {
 	adc16_channel_config_t ls_ChannelConfig;
 
@@ -107,7 +107,7 @@ static void app_ADC_Trigger(void)
  * Function Name: app_ADC_IsConversionCompleted
  * Description: TBD
  ***********************************************/
-static T_UBYTE app_ADC_IsConversionCompleted(void)
+ T_UBYTE app_ADC_IsConversionCompleted(void)
 {
 	T_UBYTE lub_Return;
 
@@ -133,7 +133,7 @@ static T_UBYTE app_ADC_IsConversionCompleted(void)
  * Function Name: app_ADC_GetValue
  * Description: TBD
  ***********************************************/
-static T_UWORD app_ADC_GetValue(void)
+ T_UWORD app_ADC_GetValue(void)
 {
 	//Return Last Conversion Value
 	return ADC16_GetChannelConversionValue(ADC0, APP_ADC_CHANNEL_GROUP);

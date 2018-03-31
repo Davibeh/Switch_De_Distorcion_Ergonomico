@@ -48,7 +48,10 @@ void app_PIT_Init(void)
 	PIT_Init(PIT, &ls_PitConfig);
 
 	/* PIT Set Period at 1 ms*/
-	PIT_SetTimerPeriod(PIT, kPIT_Chnl_0, USEC_TO_COUNT(1000,CLOCK_GetFreq(kCLOCK_BusClk)));
+	/*PIT_SetTimerPeriod(PIT, kPIT_Chnl_0, USEC_TO_COUNT(1000,CLOCK_GetFreq(kCLOCK_BusClk)));*/
+	/*David Bellomo Just temporary*/
+	PIT_SetTimerPeriod(PIT, kPIT_Chnl_0, 940u);/*Around 20Khz*/
+
 
 	/* Enable PIT Interrutps */
 	PIT_EnableInterrupts(PIT, kPIT_Chnl_0, kPIT_TimerInterruptEnable);

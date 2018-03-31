@@ -35,7 +35,7 @@ void EMG_MNG_Init (void);
  * Function Name: app_Init
  * Description: TBD
  ***********************************************/
-void app_Init(void)
+void app_Init_BETA(void)
 {
     /* PIT Module Init */
     app_PIT_Init();
@@ -53,5 +53,27 @@ void app_Init(void)
     app_BtnDbnc_Init();
 
     EMG_MNG_Init ();
+
+}
+
+
+void app_Init_ALFA(void)
+{
+    /* PIT Module Init */
+    app_PIT_Init();
+
+    /* GPIO Module Init */
+    app_GPIO_Init();
+
+    /* DAC Module Init */
+    app_DAC_Init();
+
+    /* ADC Module Init */
+    app_ADC_Init();
+
+    /* Button Debounce App Init */
+    //app_BtnDbnc_Init();
+
+    //EMG_MNG_Init ();
 
 }

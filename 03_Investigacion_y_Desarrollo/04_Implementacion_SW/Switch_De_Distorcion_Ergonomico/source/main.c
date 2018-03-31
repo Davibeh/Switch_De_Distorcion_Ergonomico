@@ -28,6 +28,9 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+/*David Bellomo 30/03/18: Add a ifdef and define  in order to enable and disable the Beta variant code*/
+#define DISABLE_BETA
+
 /**
  * @file    MKL25Z128xxx4_Project.c
  * @brief   Application entry point.
@@ -43,12 +46,21 @@
 #include "app_PIT.h"
 #include "app_BtnDbnc.h"
 #include "app_LED.h"
-
+#include "fsl_gpio.h"
 /* TODO: insert other definitions and declarations here. */
 
 /*
  * @brief   Application entry point.
  */
+
+/*David Bellomo just for now ;)*/
+#ifdef DISABLE_BETA
+unsigned char estado;
+void vfnEcho (void);
+void NoEffect (void);
+#endif
+
+
 int main(void)
 {
 	/* Init board hardware. */
@@ -57,15 +69,30 @@ int main(void)
 	/* Init FSL debug console. */
 	BOARD_InitDebugConsole();
 
-	/*printf("SW Embedded Tutorials\n");*/
 
+#ifndef DISABLE_BETA
 	/* Initialization App */
-	app_Init();
+	printf("BETA CODE IS ENABLED\n");
+	app_Init_BETA();
 
 	//Infinite Loop
 	for(;;)
 	{
 		OS_Sched_Core_Loop();
 	}
+#else
+	printf("ALFA CODE IS ENABLED\n");
+	app_Init_ALFA();
+	for(;;){
+
+	//	GPIO_TogglePinsOutput(GPIOD,3);
+		if(estado == 0){
+			NoEffect();
+		}else{
+		vfnEcho();
+		}
+	}
+
+#endif
 	return 0 ;
 }

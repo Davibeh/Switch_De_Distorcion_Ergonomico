@@ -23,6 +23,6 @@
 /******************************************
  * Prototypes
  ******************************************/
-extern void app_Init(void);
-
+extern void app_Init_BETA(void);
+extern void app_Init_ALFA(void);
 #endif /* APP_INIT_H_ */

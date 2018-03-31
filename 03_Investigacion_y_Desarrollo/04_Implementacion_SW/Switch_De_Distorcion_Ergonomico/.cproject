@@ -242,7 +242,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Application"/>
+						<entry excluding="Efectos_de_Sonido/Distorcion.c|Efectos_de_Sonido/Distorcion.h|Efectos_de_Sonido/Electromiografo.c|Efectos_de_Sonido/Electromiografo.h|Efectos_de_Sonido/Inicializacion.c|Efectos_de_Sonido/Inicializacion.h|Efectos_de_Sonido/Vibrato.c|Efectos_de_Sonido/Vibrato.h" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Application"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH" kind="sourcePath" name="CMSIS"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="OS"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH" kind="sourcePath" name="drivers"/>
