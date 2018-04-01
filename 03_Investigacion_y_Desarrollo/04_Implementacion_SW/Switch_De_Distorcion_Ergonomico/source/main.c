@@ -29,7 +29,7 @@
  */
 
 /*David Bellomo 30/03/18: Add a ifdef and define  in order to enable and disable the Beta variant code*/
-#define DISABLE_BETA
+//#define DISABLE_BETA
 
 /**
  * @file    MKL25Z128xxx4_Project.c
@@ -78,7 +78,7 @@ int main(void)
 	//Infinite Loop
 	for(;;)
 	{
-		OS_Sched_Core_Loop();
+		/*OS_Sched_Core_Loop();*/
 	}
 #else
 	printf("ALFA CODE IS ENABLED\n");

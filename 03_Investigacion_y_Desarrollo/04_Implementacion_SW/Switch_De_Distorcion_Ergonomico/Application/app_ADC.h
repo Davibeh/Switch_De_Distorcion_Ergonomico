@@ -8,7 +8,8 @@
 #ifndef APP_ADC_H_
 #define APP_ADC_H_
 
-#define APP_ADC_CHANNEL 		0u
+#define APP_ADC_CHANNEL 		0u /*PTE20*/
+#define EMG_ADC_CHANNEL         4u /*PTE21*/
 #define APP_ADC_CHANNEL_GROUP 	0u
 
 

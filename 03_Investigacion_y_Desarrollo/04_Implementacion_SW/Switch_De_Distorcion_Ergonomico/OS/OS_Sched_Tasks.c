@@ -3,6 +3,13 @@
  *
  *  Created on: 17/11/2017
  *      Author: uidj2522
+  *---------------------------------------------------------
+ * Change History
+ * --------------------------------------------------------
+ * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ * Description:  Removed the ADC task since now the ADC read is performed in a synchronous fashion
+ * 				Also the EMG_SampleADC() is removed since is not providing any bennefit right now
  */
 
 /******************************************
@@ -13,7 +20,6 @@
 
 void  EMG_MainTsk(void);
 void AudioEffectSig_MainFunction(void);
-void EMG_SampleADC(void);
 /******************************************
  * Code
  ******************************************/
@@ -24,19 +30,11 @@ void EMG_SampleADC(void);
  ***********************************************/
 void app_OS_Sched_Task_1tk(void)
 {
-	//Every 64 ms
-	//app_LED_Task();
-
+/*Task executed every 1ms*/
 	/* Functions Executed Every Loop */
 	//app_BtnDbnc_TaskMngr();
-
-	/* DAC Task */
-	//app_DAC_TaskMngr();
-
-	app_ADC_Task();
-	EMG_SampleADC();
 	EMG_MainTsk();
-	AudioEffectSig_MainFunction();
+	/*AudioEffectSig_MainFunction();*/
 	//AudioEffectSig_MainFunction();
 }
 

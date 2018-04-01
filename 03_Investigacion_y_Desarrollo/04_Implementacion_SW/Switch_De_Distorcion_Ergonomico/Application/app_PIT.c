@@ -40,7 +40,7 @@ T_UBYTE	rub_PITAlarm;
 /******************************************
  * Code
  ******************************************/
-
+void EMG_MainTsk(void);
 /***********************************************
  * Function Name: app_PIT_Init
  * Description: Function that initializes the
@@ -83,9 +83,11 @@ void PIT_IRQHandler(void)
 		/* Set PIT Alarm */
 		PIT_ClearStatusFlags(PIT, kPIT_Chnl_0, kPIT_TimerFlag);
 		rub_PITAlarm = TRUE; /*Notify the Scheduler that is time to activate another task*/
+		EMG_MainTsk();
 	}/*if(PIT_GetStatusFlags(PIT, kPIT_Chnl_0))*/
 	else{
 		if(PIT_GetStatusFlags(PIT, kPIT_Chnl_1)){
+			PIT_ClearStatusFlags(PIT, kPIT_Chnl_1, kPIT_TimerFlag);
 			ISR_Audio_Sampl_Handler(); /*Call the ISR for the Audio sampling*/
 		}/*if(PIT_GetStatusFlags(PIT, kPIT_Chnl_1))*/
 	}

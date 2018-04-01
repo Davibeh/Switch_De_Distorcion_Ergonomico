@@ -25,4 +25,5 @@ typedef enum{
 
 /****************Prototypes************/
 extern void ISR_Audio_Sampl_Handler(void); /*This ISR is ment to be placed on the IRQ for the PIT channel corresponding to the Sampling Audio*/
+extern void AudioEffect_ActivationCbk(void);
 #endif /* EFECTOS_DE_SONIDO_EFECTOS_DE_SONIDO_H_ */

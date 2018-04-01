@@ -3,9 +3,20 @@
  *
  *  Created on: 25 mar. 2018
  *      Author: David Bellomo Gomez
+  *
+  *---------------------------------------------------------
+ * Change History
+ * --------------------------------------------------------
+ * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ *Description:  Change the ADC reads now the ADC is read directly from the synchronous trigger of the ADC conversion.
+ *              The interrupts are now disabled during the ADC conversion of this channel to avoid any interfireance with the
+ *              Audio sampling. A new callback is privisioned in the configuration.
  */
 
 #include "EMG_Control.h"
+#include "Efectos_De_Sonido.h"
+#include "fsl_common.h" /*This is to include disable or enable the ADC interrupt*/
 void NotificationCallback(void);/*TODO Place this in the proper header*/
 void EMG_MNG_sample_pulse(void);
 void EMG_MNG_waitpulse(void);
@@ -26,12 +37,7 @@ static  T_EMG_MNG_CAL EMG_MNG_CAL = {
 ******************************************/
 
 static T_EMG_MNG_CTL EMG_MNG;
-static T_UWORD ADC_SAMPLE_SUM; /*Variable used to add up the current ADC sample*/
 
-/*TODO: This prototype is placed here just because the ADC app does not has any
- * public interface in its header. create a new header for public interfaces and use it
- * instead of declaring this as follows*/
-T_UWORD app_GetVal_ADC_IF(void);
 
 /******************************************************************
  * Name: EMG_MNG_Init
@@ -45,7 +51,7 @@ void EMG_MNG_Init (void){
 
 	EMG_MNG.EMG_STATE = WAIT_FOR_PULSE; /* Start with wait pulse*/
 	EMG_MNG.PULSE_COUNT = 0u; /* Start with 0*/
-	EMG_MNG.Callback_ptr = NotificationCallback; /*Call callback for the SWC */
+	EMG_MNG.Callback_ptr = AudioEffect_ActivationCbk; /*Call callback for the SWC */
 }
 
 
@@ -56,22 +62,22 @@ void EMG_MNG_Init (void){
  * Description: TBD
  * ****************************************************************/
 
-void EMG_SampleADC(void){
-
-/*Get the Sample value of the ADC value and sum up*/
-	ADC_SAMPLE_SUM =   app_GetVal_ADC_IF();
-}
+//void EMG_SampleADC(void){
+//
+///*Get the Sample value of the ADC value and sum up*/
+//	ADC_SAMPLE_SUM =   app_GetVal_ADC_IF();
+//}
 /******************************************************************
  * Get_ADCSample_lowPass
  * Return: T_UWORD
  * Parameter: Void
  * Description: TBD
  * ****************************************************************/
-T_UWORD Get_ADCSample_lowPass(void){
-
-	return ADC_SAMPLE_SUM ; /*Sample divided by 8*/
-
-}
+//T_UWORD Get_ADCSample_lowPass(void){
+//
+//	return ADC_SAMPLE_SUM ; /*Sample divided by 8*/
+//
+//}
 
 /******************************************************************
  * Name:ReadAndSetCal
@@ -110,9 +116,17 @@ default:
  * ****************************************************************/
 T_UBYTE EMG_MNG_IsPulseActive(void){
 	T_UWORD luw_obtained_ADC_Value;
-	/*Read the ADC current value*/
-	luw_obtained_ADC_Value = Get_ADCSample_lowPass();
-	ADC_SAMPLE_SUM = 0u;
+	uint32_t primask; /*This is use for store the mask*/
+
+	//primask =DisableGlobalIRQ();/*Disable the interrupts so the ADC is not interrupted*/
+
+		/*Read the ADC current value*/
+		app_ADC_Trigger(EMG_ADC_CHANNEL); /*Trigger the ADC channel conversion*/
+		while(app_ADC_IsConversionCompleted() != TRUE); /*This might be very dangerous. Need to determine if we may need to implement a timeout strategy*/
+		luw_obtained_ADC_Value = app_ADC_GetValue(); /*Read the ADC value*/
+
+//	EnableGlobalIRQ(primask); /*Enable the interrupts again*/
+
 	if( EMG_MNG_CAL.ADC_VAL_THRESHOLD  <=luw_obtained_ADC_Value){
 		return TRUE;
 	}else{

@@ -9,6 +9,7 @@
 #define MIOGRAFOAUDIO_EMG_CONTROL_H_
 
 #include "stdtypedef.h"
+#include "app_ADC.h"
 
 
 /*Enumeration that represents the state of the EMG manager*/

@@ -4,7 +4,6 @@
  *  Created on: 31/03/2018
  *      Author: uidv7995
  * Description: This file contains the main functionality for the the Sound effects
- *
  */
 
 
@@ -14,7 +13,6 @@
 #include "Vibrato.h" /*Vibrato interface*/
 #include "NoEffect.h" /*No effect interface*/
 #include "Efectos_De_Sonido.h"
-/*TODO: Add  and Vibrato.h once the complete merge is achieved*/
 
 
 /*********************************Private Variables*************************************/
