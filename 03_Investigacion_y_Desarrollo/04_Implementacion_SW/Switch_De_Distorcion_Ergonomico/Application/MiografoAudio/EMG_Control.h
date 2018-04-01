@@ -2,7 +2,7 @@
  * EMG_Control.h
  *
  *  Created on: 25 mar. 2018
- *      Author: Bello
+ *      Author: David Bellomo
  */
 
 #ifndef MIOGRAFOAUDIO_EMG_CONTROL_H_

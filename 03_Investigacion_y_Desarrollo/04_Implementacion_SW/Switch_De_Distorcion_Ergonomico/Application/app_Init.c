@@ -3,6 +3,15 @@
  *
  *  Created on: 23/10/2017
  *      Author: uidj2522
+  *---------------------------------------------------------
+ * Change History
+ * --------------------------------------------------------
+ * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ * Description: Add Two initialization one called for Beta Variant and the second one called Alfa.
+ * 				Also the PIT initialization was moved to the end of the app_init in both variants
+ * 				since the PIT channel 1 is now very fast (10us) and we do not want a nasty interrupt
+ * 				being executed while we are initializating.
  */
 
 /******************************************
@@ -37,8 +46,7 @@ void EMG_MNG_Init (void);
  ***********************************************/
 void app_Init_BETA(void)
 {
-    /* PIT Module Init */
-    app_PIT_Init();
+
 
     /* GPIO Module Init */
     app_GPIO_Init();
@@ -53,15 +61,14 @@ void app_Init_BETA(void)
     app_BtnDbnc_Init();
 
     EMG_MNG_Init ();
+    /* PIT Module Init */
+    app_PIT_Init(); /*TODO: Find the interface to globally disable the interrupts*/
 
 }
 
 
 void app_Init_ALFA(void)
 {
-    /* PIT Module Init */
-    app_PIT_Init();
-
     /* GPIO Module Init */
     app_GPIO_Init();
 
@@ -71,9 +78,8 @@ void app_Init_ALFA(void)
     /* ADC Module Init */
     app_ADC_Init();
 
-    /* Button Debounce App Init */
-    //app_BtnDbnc_Init();
-
+    /* PIT Module Init */
+    app_PIT_Init();/*TODO: Find the interface to globally disable the interrupts*/
     //EMG_MNG_Init ();
 
 }

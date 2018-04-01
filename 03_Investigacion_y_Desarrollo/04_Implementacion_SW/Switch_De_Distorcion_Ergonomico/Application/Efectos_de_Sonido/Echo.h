@@ -3,30 +3,27 @@
  *
  *  Created on: Mar 24, 2018
  *      Author: Edgar Padilla Chung
+  * --------------------------------------------------------
+ * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ * Description: Change the application to work with the ADC interface. The headers were replaced  a new type def
+ *              file was added. And wrappers as defitions were made in order to reduce the impact in the original code.
  */
 
 #ifndef ECHO_H_
 #define ECHO_H_
-/*David bellomo Commented just for now*/
-//#include "ADC_Driver.h"
-//#include "DACDriver.h"
-//#include "PITDriver.h"
-//#include "GPIODriver.h"
 
-/*David Bellomo just for now because I need to  check if it works*/
-#include "stdtypedef.h"
-#include "app_ADC.h"
-#include "app_DAC.h"
-extern T_UBYTE	rub_PITAlarm;
-extern T_UBYTE app_ADC_IsConversionCompleted(void);
-extern T_UWORD app_ADC_GetValue(void);
-extern   void app_DAC_SetValue(T_UWORD luw_DacValue);
+#include "stdtypedef.h" /*Type def of the system*/
+#include "app_ADC.h" /*ADC interface header*/
+#include "app_DAC.h" /*ADC interface header*/
 
-#define vfnGetTimerFlag(x) rub_PITAlarm
-#define vfnClearTimerFlag(x)  rub_PITAlarm = 0u
-#define ADC_ConvertioCheck(x) app_ADC_IsConversionCompleted()
-#define ADC_wfnLecture() app_ADC_GetValue()
-#define DAC_vfnDisplay(x) app_DAC_SetValue(x)
+/*Wrapper definitions in order to reduce the code impact*/
+#define ADC_ConvertioCheck(x) app_ADC_IsConversionCompleted() /*To check if the conversion was completed*/
+#define ADC_wfnLecture() app_ADC_GetValue() /*To get the converted value*/
+#define DAC_vfnDisplay(x) app_DAC_SetValue(x) /*To ser the value to the DAC*/
+
+
+/*******Public header for the main function********************/
 void vfnEcho (void);
 
 

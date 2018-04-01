@@ -85,8 +85,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/utilities}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/startup}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/CMSIS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Application}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/OS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Application}&quot;"/>
 								</option>
 								<option id="gnu.c.compiler.option.include.files.2016378574" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files"/>
 								<option id="com.crt.advproject.gcc.exe.debug.option.optimization.level.862925341" name="Optimization Level" superClass="com.crt.advproject.gcc.exe.debug.option.optimization.level"/>
@@ -242,7 +242,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Efectos_de_Sonido/Distorcion.c|Efectos_de_Sonido/Distorcion.h|Efectos_de_Sonido/Electromiografo.c|Efectos_de_Sonido/Electromiografo.h|Efectos_de_Sonido/Inicializacion.c|Efectos_de_Sonido/Inicializacion.h|Efectos_de_Sonido/Vibrato.c|Efectos_de_Sonido/Vibrato.h" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Application"/>
+						<entry excluding="Efectos_de_Sonido/Electromiografo.c|Efectos_de_Sonido/Electromiografo.h|Efectos_de_Sonido/Inicializacion.c|Efectos_de_Sonido/Inicializacion.h" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Application"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH" kind="sourcePath" name="CMSIS"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="OS"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH" kind="sourcePath" name="drivers"/>

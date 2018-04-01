@@ -1,6 +1,6 @@
-02:23:00 **** Incremental Build of configuration Debug for project Switch_De_Distorcion_Ergonomico ****
+20:30:52 **** Incremental Build of configuration Debug for project Switch_De_Distorcion_Ergonomico ****
 make -r -j8 all 
 make: Nothing to be done for `all'.
 
-02:23:02 Build Finished (took 2s.452ms)
+20:30:52 Build Finished (took 148ms)
 

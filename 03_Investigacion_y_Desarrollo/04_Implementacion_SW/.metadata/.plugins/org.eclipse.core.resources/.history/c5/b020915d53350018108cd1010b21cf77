@@ -1,0 +1,23 @@
+/*
+ * Distorcion.h
+ *
+ *  Created on: Mar 24, 2018
+ *      Author: Edgar Padilla Chung
+  * --------------------------------------------------------
+ * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ * Description: Change the application to work with the ADC interface. The headers were replaced  a new type def
+ *              file was added. And wrappers as defitions were made in order to reduce the impact in the original code.
+ */
+
+#ifndef DISTORCION_H_
+#define DISTORCION_H_
+
+#include "stdtypedef.h" /*Type def of the system*/
+#include "app_ADC.h" /*ADC interface header*/
+#include "app_DAC.h" /*ADC interface header*/
+
+void vfnDistorcionInit (void);
+void vfnDistorcion (void);
+
+#endif /* DISTORCION_H_ */

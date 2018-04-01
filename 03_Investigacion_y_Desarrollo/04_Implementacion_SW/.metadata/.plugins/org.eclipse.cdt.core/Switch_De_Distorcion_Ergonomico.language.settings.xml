@@ -23,10 +23,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -59,10 +59,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -95,10 +95,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -131,10 +131,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -167,10 +167,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -203,10 +203,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -239,10 +239,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -275,10 +275,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -311,10 +311,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -347,10 +347,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -383,10 +383,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -419,10 +419,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -491,10 +491,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -527,10 +527,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -563,10 +563,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -599,10 +599,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -635,10 +635,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -671,10 +671,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -707,10 +707,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -743,10 +743,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -779,10 +779,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -815,10 +815,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -851,10 +851,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -887,10 +887,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -923,10 +923,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -959,10 +959,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -995,10 +995,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1031,10 +1031,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1067,10 +1067,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1103,10 +1103,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1139,10 +1139,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1175,10 +1175,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1211,10 +1211,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1247,10 +1247,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1283,10 +1283,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1319,10 +1319,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1355,10 +1355,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1391,10 +1391,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1427,10 +1427,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1463,10 +1463,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1499,10 +1499,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1571,10 +1571,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1607,10 +1607,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1643,10 +1643,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1679,10 +1679,46 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
 						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VLK4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="FSL_RTOS_BM" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_OS_BAREMETAL" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/Efectos_de_Sonido/Efectos_De_Sonido.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
 						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1715,10 +1751,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1751,10 +1787,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1787,10 +1823,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1823,10 +1859,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1859,10 +1895,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1895,10 +1931,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>
@@ -1931,10 +1967,10 @@
 						<entry kind="includePath" name="/${ProjName}/CMSIS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/Application">
+						<entry kind="includePath" name="/${ProjName}/OS">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
-						<entry kind="includePath" name="/${ProjName}/OS">
+						<entry kind="includePath" name="/${ProjName}/Application">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
 						<entry kind="macro" name="CPU_MKL25Z128VLK4" value=""/>

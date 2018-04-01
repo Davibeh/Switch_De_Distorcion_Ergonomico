@@ -3,19 +3,21 @@
  *
  *  Created on: Mar 24, 2018
  *      Author: Edgar Padilla Chung
+ *
+ *---------------------------------------------------------
+ * Change History
+ * --------------------------------------------------------
+ * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ * Description: Alfa variant integration to the Beta variant:
+ * 				1- Remove the check for the PIT flag, now this task is executed at interrupt level.
+ * 				2- New managed of the ADC conversion, now the conversion is triggered and a wait for complete retains the core
+ * 				3- Cleaning the code
+ * 				4- Correct the division by to with just a right shift by 1
+ * * --------------------------------------------------------
  */
 
 #include "Echo.h"
-
-#define AUIDIO_SIGNAL_ADC_CHANNEL             0
-
-#define POT_ADC_CHANNEL                       0x03
-
-#define	TIME				                  490// 20kHz
-
-#define RED_LED_MASK  						 (1<<18)
-
-#define TOGGLE_RED_LED                        GPIOB_PTOR |= RED_LED_MASK;
 
 #define RESET                                 0
 
@@ -35,51 +37,42 @@ static unsigned short wAdcData;
 unsigned char ADC_Inconverstion = 0x00u;
 
 
-void app_ADC_Trigger(void);
 
 
 void vfnEcho (void)
 {
-	
-	if (vfnGetTimerFlag(0))
-	{
-		/*David Bellomo just commented for now*/
-		/*vfnLedToggle(PORTB,18);*/
 
-		if(ADC_Inconverstion == 0x01){
-		if (ADC_ConvertioCheck(ADC_CHANNEL))
+
+	    app_ADC_Trigger(APP_ADC_CHANNEL); /*Trigger the ADC channel conversion*/
+	    while(ADC_ConvertioCheck(ADC_CHANNEL) != TRUE); /*This might be very dangerous. Need to determine if we may need to implement a timeout strategy*/
+		wAdcData = ADC_wfnLecture(); /*Get the converted value*/
+
+		*(PtrArray+wOffsetADC) = wAdcData; /*This value must be place in the output buffer, in the ADC sampling locator*/
+
+		DAC_vfnDisplay((wAdcData + *(PtrArray+wOffsetDAC))>>2); /*Add to the current Value of the signal the delayed signal to produce the ECHO effect
+		 	 	 	 	 	 	 	 	 	 	 	 	 	 	note that the resulting value  is divided by two to avoid  a saturation*/
+
+		if (wOffsetADC == RESET )
 		{
-			ADC_Inconverstion = 0x00u;
-			wAdcData = ADC_wfnLecture();
-
-			*(PtrArray+wOffsetADC) = wAdcData;
-
-			DAC_vfnDisplay((wAdcData + *(PtrArray+wOffsetDAC))/2);
-
-			if (wOffsetADC == RESET )
-			{
-				wOffsetADC = MAX_NUMBER;
-			}
-
-			else
-			{
-				wOffsetADC--;
-			}
-			if (wOffsetDAC == RESET )
-			{
-				wOffsetDAC = MAX_NUMBER;
-			}
-			else
-			{
-				wOffsetDAC--;
-			}
-
+			/*We are in the lower limit just set it to the max value*/
+			/*TODO: This can be solved with a modulus operation*/
+			wOffsetADC = MAX_NUMBER;
 		}
-		}else{
-			app_ADC_Trigger();
-			ADC_Inconverstion = 0x01u;
 
+		else
+		{
+			/*Decrease the ADC buffer*/
+			wOffsetADC--;
 		}
-		vfnClearTimerFlag(0);
-	}
+		if (wOffsetDAC == RESET )
+		{
+			/*We reached the lower index just set the indext to the maximum index value.*/
+			wOffsetDAC = MAX_NUMBER;
+		}
+		else
+		{
+			/*Decrease the index value*/
+			wOffsetDAC--;
+		}
+
 }

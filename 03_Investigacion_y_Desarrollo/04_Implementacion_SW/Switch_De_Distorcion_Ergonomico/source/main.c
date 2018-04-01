@@ -83,16 +83,7 @@ int main(void)
 #else
 	printf("ALFA CODE IS ENABLED\n");
 	app_Init_ALFA();
-	for(;;){
-
-	//	GPIO_TogglePinsOutput(GPIOD,3);
-		if(estado == 0){
-			NoEffect();
-		}else{
-		vfnEcho();
-		}
-	}
-
+	for(;;);
 #endif
 	return 0 ;
 }

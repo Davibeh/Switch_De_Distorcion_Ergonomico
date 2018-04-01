@@ -1,0 +1,30 @@
+/*
+ * NoEfect.h
+ *
+ *  Created on: Mar 24, 2018
+ *      Author: Edgar Padilla Chung
+ */
+
+#ifndef NOEFECT_H_
+#define NOEFECT_H_
+
+
+
+
+
+#include "stdtypedef.h"
+#include "app_ADC.h"
+#include "app_DAC.h"
+
+
+
+
+#define ADC_ConvertioCheck(x) app_ADC_IsConversionCompleted()
+#define ADC_wfnLecture() app_ADC_GetValue()
+#define DAC_vfnDisplay(x) app_DAC_SetValue(x)
+
+
+extern void NoEffect (void);
+
+
+#endif /* NOEFECT_H_ */

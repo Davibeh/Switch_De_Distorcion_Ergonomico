@@ -1,0 +1,17 @@
+/*
+ * Efectos_De_Sonido.h
+ *
+ *  Created on: 31/03/2018
+ *      Author: David Bellomo
+ *Description: This is a wrapper for the pleate Sound effect application
+ *
+ *
+ *
+ */
+
+#ifndef EFECTOS_DE_SONIDO_EFECTOS_DE_SONIDO_H_
+#define EFECTOS_DE_SONIDO_EFECTOS_DE_SONIDO_H_
+
+/****************Public Portotypes************/
+extern void ISR_Audio_Sampl_Handler(void); /*This ISR is ment to be placed on the IRQ for the PIT channel corresponding to the Sampling Audio*/
+#endif /* EFECTOS_DE_SONIDO_EFECTOS_DE_SONIDO_H_ */

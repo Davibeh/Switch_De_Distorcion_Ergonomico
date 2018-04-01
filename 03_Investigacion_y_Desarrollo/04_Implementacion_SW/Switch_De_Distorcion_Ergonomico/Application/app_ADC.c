@@ -9,6 +9,11 @@
  * Name: David Roberto Bellomo Gomez
  * Date: 25/03/18
  * Description: Add a public ADC get value interface
+ * * --------------------------------------------------------
+ *  * Name: David Roberto Bellomo Gomez
+ * Date: 31/03/18
+ * Description: Change the APIS in order to manage the Convertions by channels
+ * (this applicaction now requires to ADC Channels 1 for Audio Sampling an another for Miograph movement detection
  */
 
  /******************************************
@@ -21,9 +26,7 @@
  /******************************************
  * Private Macros
  ******************************************/
-#define APP_ADC_CHANNEL 		0u
-#define APP_ADC_CHANNEL_GROUP 	0u
- 
+
  /******************************************
  * Private Typedef
  ******************************************/
@@ -45,6 +48,11 @@
  ******************************************/
 
 T_UWORD app_GetVal_ADC_IF(void);
+void app_ADC_Trigger(T_UBYTE ADC_Channel);
+T_UBYTE app_ADC_IsConversionCompleted(void);
+T_UWORD app_ADC_GetValue(void);
+
+
 
  /******************************************
  * Private Variables
@@ -55,16 +63,26 @@ static T_UBYTE rub_ConversionInProgressFlag = FALSE;
  /******************************************
  * Private Prototypes
  ******************************************/
- void app_ADC_Trigger(void);
-T_UBYTE app_ADC_IsConversionCompleted(void);
- T_UWORD app_ADC_GetValue(void);
+
  /******************************************
  * Code
  ******************************************/
 
 /***********************************************
  * Function Name: app_ADC_Init
- * Description: TBD
+ * Description: Must be call at the beggining of the application boot
+ *              this function initialize the ADC as required for the Application.
+ *
+ *              The requirements for this application are the folloing:
+ *              * Convertion Time must be no more than 5us.
+ *              * Source Clock must be the  Bus clock Divided by two.
+ *              * The CFG2 High Speed Sample must be enabled.
+ *              * The convertion resolution must be of 12 bits
+ *              * No average functionality.
+ *              * High Speed Sample must be configured in CFG1[ADLSMP]
+ *              * The Convertion time in ADCK is--> 27ADCK + 5Bus Cucle
+ *
+ *             The bus cucle for this system is 24MHz
  ***********************************************/
 void app_ADC_Init(void)
 {
@@ -73,26 +91,35 @@ void app_ADC_Init(void)
 	//Initialize structure with default values
 	ADC16_GetDefaultConfig(&ls_ADCConfig);
 
+	/*Configure ADC0 as required for the application convertion time no longer than 5us*/
+	ls_ADCConfig.clockSource = kADC16_ClockSourceAlt0; /*Clock source must be Bus Clock*/
+	ls_ADCConfig.enableAsynchronousClock = FALSE; /*Since we are using the Bus clock the asynchrnous clock is not required*/
+	ls_ADCConfig.clockDivider= kADC16_ClockDivider2;  /*The division must be of 2*/
+	ls_ADCConfig.resolution= kADC16_ResolutionSE12Bit; /*Resolution of 12bits*/
+	ls_ADCConfig.longSampleMode= kADC16_LongSampleDisabled;  /* The configuration must be short sample so set it as false*/
+	ls_ADCConfig.enableHighSpeed= TRUE;/*Yes, the clock may be faster than allowed for short speed so enable the  high speed sampling*/
+	ls_ADCConfig.enableLowPower= FALSE;/*No the ADC must run in high speed*/
+	ls_ADCConfig.enableContinuousConversion= FALSE;  /*No it must be single shot*/
+	/*The configurations above are expected to give a  2.4us of convertion time*/
+
 	//Init ADC Module
 	ADC16_Init(ADC0, &ls_ADCConfig);
-
 	//Disable Hardware Trigger
 	ADC16_EnableHardwareTrigger(ADC0, FALSE); /* Make sure the software trigger is used. */
-
 	//Perform Autocalibration
 	(void)ADC16_DoAutoCalibration(ADC0);
 }
 
 /***********************************************
  * Function Name: app_ADC_Trigger
- * Description: TBD
+ * Description: Triggers the Convertion of the specified ADC Channel
  ***********************************************/
- void app_ADC_Trigger(void)
+ void app_ADC_Trigger(T_UBYTE ADC_Channel)
 {
 	adc16_channel_config_t ls_ChannelConfig;
 
 	//Channel Selection
-	ls_ChannelConfig.channelNumber = APP_ADC_CHANNEL;
+	ls_ChannelConfig.channelNumber = ADC_Channel;
 
 	//Disable Interrupt when Conversion is completed
 	ls_ChannelConfig.enableInterruptOnConversionCompleted = FALSE;
@@ -165,7 +192,7 @@ void app_ADC_Task(void)
 	else
 	{
 		//Trigger the ADC Conversion
-		app_ADC_Trigger();
+		app_ADC_Trigger(APP_ADC_CHANNEL);
 
 		//Set Conversion in progress flag
 		rub_ConversionInProgressFlag = TRUE;

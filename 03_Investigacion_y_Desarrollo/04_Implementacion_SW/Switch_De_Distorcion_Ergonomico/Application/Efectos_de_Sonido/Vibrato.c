@@ -3,6 +3,10 @@
  *
  *  Created on: Mar 24, 2018
  *      Author: Edgar Padilla Chung
+ * Description: Alfa variant integration to the Beta variant:
+ * 				1- Remove the check for the PIT flag, now this task is executed at interrupt level.
+ * 				2- New managed of the ADC conversion, now the conversion is triggered and a wait for complete retains the core
+ * 				3- Cleaning the code
  */
 
 #include "Vibrato.h"
@@ -29,13 +33,9 @@ static unsigned short wCounterUPDown = 0;
 
 void vfnVibrato (void)
 {
+			app_ADC_Trigger(APP_ADC_CHANNEL); /*Trigger the ADC channel conversion*/
+			while(ADC_ConvertioCheck(ADC_CHANNEL) != TRUE); /*This might be very dangerous. Need to determine if we may need to implement a timeout strategy*/
 
-	if (vfnGetTimerFlag(0))
-	{
-		vfnLedToggle(PORTB,18);
-		
-		if (ADC_ConvertioCheck(ADC_CHANNEL))
-		{
 			wData1 = ADC_wfnLecture();
 			wData = ((wData1*wVibrato)>>20);
 
@@ -59,10 +59,4 @@ void vfnVibrato (void)
 			}
 
 			DAC_vfnDisplay(wData);
-		}
-
-
-
-		vfnClearTimerFlag(0);
-	}
 }
