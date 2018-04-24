@@ -1,0 +1,3134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.crt.advproject.config.exe.debug.294187875" name="Debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.crt.advproject.GCCBuildCommandParser">
+				<language id="org.eclipse.cdt.core.gcc">
+					<resource project-relative-path="drivers/fsl_gpio.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_smc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_DAC.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_adc16.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/Efectos_de_Sonido/Distorcion.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/mtb.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_lpsci_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/Efectos_de_Sonido/Echo.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_lpsci.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_PWM.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_i2c_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="OS/OS_Sched_Tasks.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/MiografoAudio/EMG_Control.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_lptmr.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_spi.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_pit.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_rcm.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_pmc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_spi_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/Efectos_de_Sonido/Vibrato.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_cmp.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_Init.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_tpm.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_tsi_v4.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="startup/startup_mkl25z4.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/board.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_llwu.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_uart_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_PIT.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_common.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="utilities/fsl_debug_console.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_ADC.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_dac.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/main.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_dmamux.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_uart.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_clock.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_i2c.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_rtc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="CMSIS/system_MKL25Z4.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="OS/OS_Sched_Core.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/MiografoAudio/Audio_Effect_Sig_ctl.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_BtnDbnc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/Efectos_de_Sonido/Efectos_De_Sonido.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_GPIO.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_cop.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/app_LED.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="Application/Efectos_de_Sonido/NoEfect.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/pin_mux.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_sim.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/clock_config.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_flash.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+				</language>
+			</provider>
+		</extension>
+	</configuration>
+	<configuration id="com.crt.advproject.config.exe.release.1504499103" name="Release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.crt.advproject.GCCBuildCommandParser">
+				<language id="org.eclipse.cdt.core.gcc">
+					<resource project-relative-path="drivers/fsl_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_gpio.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_smc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_adc16.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/mtb.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_common.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_lpsci_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="utilities/fsl_debug_console.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_lpsci.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_dac.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_i2c_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/main.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_dmamux.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_uart.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_clock.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_lptmr.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_i2c.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_spi.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_pit.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_rcm.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_rtc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="CMSIS/system_MKL25Z4.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_pmc.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_spi_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_cmp.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_cop.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_tpm.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_tsi_v4.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="startup/startup_mkl25z4.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/pin_mux.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_sim.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/board.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_llwu.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="source/clock_config.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_uart_dma.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+					<resource project-relative-path="drivers/fsl_flash.c">
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Application">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/OS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4" value=""/>
+						<entry kind="macro" name="CPU_MKL25Z128VFM4_cm0plus" value=""/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value=""/>
+						<entry kind="macro" name="NDEBUG" value=""/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE_UART" value=""/>
+						<entry kind="macro" name="__MCUXPRESSO" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS" value=""/>
+					</resource>
+				</language>
+			</provider>
+		</extension>
+	</configuration>
+</project>

@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="ADC_CHANNEL" key="selection"/>
+		<item value="EMG_MNG_CAL" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="EMG_MNG_CAL"/>
+			<item value="BUTTON0"/>
 			<item value="ADC_CHANNEL"/>
 			<item value="app_ADC_Trigger"/>
 			<item value="AudioEffect_ActivationCbk"/>
 			<item value="interrupt"/>
 			<item value="RED_LED_MASK"/>
 			<item value="TIME"/>
-			<item value="POT_ADC_CHANNEL"/>
-			<item value="AUIDIO_SIGNAL_ADC_CHANNEL"/>
 		</list>
 		<list key="replacehistory">
 		</list>

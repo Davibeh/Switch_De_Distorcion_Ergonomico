@@ -1,47 +1,22 @@
-23:07:07 **** Incremental Build of configuration Debug for project Switch_De_Distorcion_Ergonomico ****
+03:57:34 **** Incremental Build of configuration Debug for project SDDE ****
 make -r -j8 all 
-Building file: ../Application/MiografoAudio/EMG_Control.c
+Building file: ../Application/Efectos_de_Sonido/Efectos_De_Sonido.c
 Invoking: MCU C Compiler
-arm-none-eabi-gcc -DCR_INTEGER_PRINTF -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -D__REDLIB__ -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\source" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\drivers" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\utilities" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\startup" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\CMSIS" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\OS" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\Switch_De_Distorcion_Ergonomico\Application" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Application/MiografoAudio/EMG_Control.d" -MT"Application/MiografoAudio/EMG_Control.o" -MT"Application/MiografoAudio/EMG_Control.d" -o "Application/MiografoAudio/EMG_Control.o" "../Application/MiografoAudio/EMG_Control.c"
-../Application/MiografoAudio/EMG_Control.c: In function 'EMG_MNG_IsPulseActive':
-../Application/MiografoAudio/EMG_Control.c:119:11: warning: unused variable 'primask' [-Wunused-variable]
-  uint32_t primask; /*This is use for store the mask*/
-           ^
-Finished building: ../Application/MiografoAudio/EMG_Control.c
+arm-none-eabi-gcc -DCR_INTEGER_PRINTF -DSDK_DEBUGCONSOLE=0 -DSDK_DEBUGCONSOLE_UART -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -DCPU_MKL25Z128VFM4 -DCPU_MKL25Z128VFM4_cm0plus -D__REDLIB__ -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\source" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\drivers" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\CMSIS" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\startup" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\utilities" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\Application" -I"D:\Switch_Ergonomico\Switch_De_Distorcion_Ergonomico\03_Investigacion_y_Desarrollo\04_Implementacion_SW\SDDE\OS" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Application/Efectos_de_Sonido/Efectos_De_Sonido.d" -MT"Application/Efectos_de_Sonido/Efectos_De_Sonido.o" -MT"Application/Efectos_de_Sonido/Efectos_De_Sonido.d" -o "Application/Efectos_de_Sonido/Efectos_De_Sonido.o" "../Application/Efectos_de_Sonido/Efectos_De_Sonido.c"
+Finished building: ../Application/Efectos_de_Sonido/Efectos_De_Sonido.c
  
-Building target: Switch_De_Distorcion_Ergonomico.axf
+Building target: SDDE.axf
 Invoking: MCU Linker
-arm-none-eabi-gcc -nostdlib -Xlinker -Map="Switch_De_Distorcion_Ergonomico.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0plus -mthumb -T Switch_De_Distorcion_Ergonomico_Debug.ld -o "Switch_De_Distorcion_Ergonomico.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/board.o ./source/clock_config.o ./source/main.o ./source/mtb.o ./source/pin_mux.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_common.o ./drivers/fsl_cop.o ./drivers/fsl_dac.o ./drivers/fsl_dma.o ./drivers/fsl_dmamux.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_dma.o ./drivers/fsl_llwu.o ./drivers/fsl_lpsci.o ./drivers/fsl_lpsci_dma.o ./drivers/fsl_lptmr.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rtc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_spi.o ./drivers/fsl_spi_dma.o ./drivers/fsl_tpm.o ./drivers/fsl_tsi_v4.o ./drivers/fsl_uart.o ./drivers/fsl_uart_dma.o  ./OS/OS_Sched_Core.o ./OS/OS_Sched_Tasks.o  ./CMSIS/system_MKL25Z4.o  ./Application/MiografoAudio/Audio_Effect_Sig_ctl.o ./Application/MiografoAudio/EMG_Control.o  ./Application/Efectos_de_Sonido/Distorcion.o ./Application/Efectos_de_Sonido/Echo.o ./Application/Efectos_de_Sonido/Efectos_De_Sonido.o ./Application/Efectos_de_Sonido/NoEfect.o ./Application/Efectos_de_Sonido/Vibrato.o  ./Application/app_ADC.o ./Application/app_BtnDbnc.o ./Application/app_DAC.o ./Application/app_GPIO.o ./Application/app_Init.o ./Application/app_LED.o ./Application/app_PIT.o ./Application/app_PWM.o   
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="SDDE.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0plus -mthumb -T "SDDE_Debug.ld" -o "SDDE.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/board.o ./source/clock_config.o ./source/main.o ./source/mtb.o ./source/pin_mux.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_common.o ./drivers/fsl_cop.o ./drivers/fsl_dac.o ./drivers/fsl_dma.o ./drivers/fsl_dmamux.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_dma.o ./drivers/fsl_llwu.o ./drivers/fsl_lpsci.o ./drivers/fsl_lpsci_dma.o ./drivers/fsl_lptmr.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rtc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_spi.o ./drivers/fsl_spi_dma.o ./drivers/fsl_tpm.o ./drivers/fsl_tsi_v4.o ./drivers/fsl_uart.o ./drivers/fsl_uart_dma.o  ./OS/OS_Sched_Core.o ./OS/OS_Sched_Tasks.o  ./CMSIS/system_MKL25Z4.o  ./Application/MiografoAudio/Audio_Effect_Sig_ctl.o ./Application/MiografoAudio/EMG_Control.o  ./Application/Efectos_de_Sonido/Distorcion.o ./Application/Efectos_de_Sonido/Echo.o ./Application/Efectos_de_Sonido/Efectos_De_Sonido.o ./Application/Efectos_de_Sonido/NoEfect.o ./Application/Efectos_de_Sonido/Vibrato.o  ./Application/app_ADC.o ./Application/app_BtnDbnc.o ./Application/app_DAC.o ./Application/app_GPIO.o ./Application/app_Init.o ./Application/app_LED.o ./Application/app_PIT.o ./Application/app_PWM.o   
 Memory region         Used Size  Region Size  %age Used
-   PROGRAM_FLASH:       24112 B       128 KB     18.40%
+   PROGRAM_FLASH:       17852 B       128 KB     13.62%
             SRAM:       10728 B        16 KB     65.48%
-Finished building target: Switch_De_Distorcion_Ergonomico.axf
+Finished building target: SDDE.axf
  
 make --no-print-directory post-build
 Performing post-build steps
-arm-none-eabi-size "Switch_De_Distorcion_Ergonomico.axf"; # arm-none-eabi-objcopy -v -O binary "Switch_De_Distorcion_Ergonomico.axf" "Switch_De_Distorcion_Ergonomico.bin" ; # checksum -p MKL25Z128xxx4 -d "Switch_De_Distorcion_Ergonomico.bin";
+arm-none-eabi-size "SDDE.axf" ; arm-none-eabi-objcopy -v -O srec "SDDE.axf" "SDDE.s19" ; # arm-none-eabi-objcopy -v -O binary "SDDE.axf" "SDDE.bin" ; # checksum -p MKL25Z128xxx4 -d "SDDE.bin"
    text	   data	    bss	    dec	    hex	filename
-  24072	     40	  10688	  34800	   87f0	Switch_De_Distorcion_Ergonomico.axf
- 
-23:07:18 **** Incremental Build of configuration Debug for project Switch_De_Distorcion_Ergonomico ****
-make -r -j8 all 
-make: Nothing to be done for `all'.
-23:52:40 **** Incremental Build of configuration Debug for project Switch_De_Distorcion_Ergonomico ****
-make -r -j8 all 
-make: Nothing to be done for `all'.
-23:58:29 **** Incremental Build of configuration Debug for project Switch_De_Distorcion_Ergonomico ****
-make -r -j8 all 
-Building target: Switch_De_Distorcion_Ergonomico.axf
-Invoking: MCU Linker
-arm-none-eabi-gcc -nostdlib -Xlinker -Map="Switch_De_Distorcion_Ergonomico.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0plus -mthumb -T Switch_De_Distorcion_Ergonomico_Debug.ld -o "Switch_De_Distorcion_Ergonomico.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/board.o ./source/clock_config.o ./source/main.o ./source/mtb.o ./source/pin_mux.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_common.o ./drivers/fsl_cop.o ./drivers/fsl_dac.o ./drivers/fsl_dma.o ./drivers/fsl_dmamux.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_dma.o ./drivers/fsl_llwu.o ./drivers/fsl_lpsci.o ./drivers/fsl_lpsci_dma.o ./drivers/fsl_lptmr.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rtc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_spi.o ./drivers/fsl_spi_dma.o ./drivers/fsl_tpm.o ./drivers/fsl_tsi_v4.o ./drivers/fsl_uart.o ./drivers/fsl_uart_dma.o  ./OS/OS_Sched_Core.o ./OS/OS_Sched_Tasks.o  ./CMSIS/system_MKL25Z4.o  ./Application/MiografoAudio/Audio_Effect_Sig_ctl.o ./Application/MiografoAudio/EMG_Control.o  ./Application/Efectos_de_Sonido/Distorcion.o ./Application/Efectos_de_Sonido/Echo.o ./Application/Efectos_de_Sonido/Efectos_De_Sonido.o ./Application/Efectos_de_Sonido/NoEfect.o ./Application/Efectos_de_Sonido/Vibrato.o  ./Application/app_ADC.o ./Application/app_BtnDbnc.o ./Application/app_DAC.o ./Application/app_GPIO.o ./Application/app_Init.o ./Application/app_LED.o ./Application/app_PIT.o ./Application/app_PWM.o   
-Memory region         Used Size  Region Size  %age Used
-   PROGRAM_FLASH:       24112 B       128 KB     18.40%
-            SRAM:       10728 B        16 KB     65.48%
-Finished building target: Switch_De_Distorcion_Ergonomico.axf
- 
-make --no-print-directory post-build
-Performing post-build steps
-arm-none-eabi-size "Switch_De_Distorcion_Ergonomico.axf"; # arm-none-eabi-objcopy -v -O binary "Switch_De_Distorcion_Ergonomico.axf" "Switch_De_Distorcion_Ergonomico.bin" ; # checksum -p MKL25Z128xxx4 -d "Switch_De_Distorcion_Ergonomico.bin";
-   text	   data	    bss	    dec	    hex	filename
-  24072	     40	  10688	  34800	   87f0	Switch_De_Distorcion_Ergonomico.axf
+  17812	     40	  10688	  28540	   6f7c	SDDE.axf
+copy from `SDDE.axf' [elf32-littlearm] to `SDDE.s19' [srec]
  

@@ -1,3 +1,4 @@
+Console.highWaterMark=88000
 eclipse.preferences.version=1
 org.eclipse.debug.ui.MemoryView.RenderingViewPane.1=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<persistedMemoryRenderings>\r\n<memoryRendering memoryBlock\="26047971" renderingId\="com.crt.dsfdebug.peripheral.render.id"/>\r\n<memoryRendering memoryBlock\="21849930" renderingId\="com.crt.dsfdebug.peripheral.render.id"/>\r\n</persistedMemoryRenderings>\r\n
 org.eclipse.debug.ui.MemoryView.orientation=0

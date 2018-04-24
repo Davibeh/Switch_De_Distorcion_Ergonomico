@@ -1,0 +1,49 @@
+[33mcommit d5fd9a49f4a9aa57a54c685cb222151685baff8c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bellomo <uidv7995@contiwan.com>
+Date:   Sun Apr 1 00:09:34 2018 -0600
+
+    Third Integraton of Alpah Beta variants
+    
+    This is the first full integration of the alfpha beta variants.
+    The Scheduler is not working properly, the loop never reaches the task execution, the workaround is to use the 1ms PIT IRQ and execute the 1ms taks there.
+    Need to analyze if the problem can be solved an use the correct Scheduler.
+    
+    The movement is dected but with the Computer the voltage suplly makes the EMG to vary to much in a way that is not detectable by the SW. the normal averge voltage is 1300 counts that corresponds to  1v and it doe snto vary to much.
+    This issue is known and it needs the  board disconnected form the computer, unfurtunatelly is not possible right now there is and issue with the Project set up where the debugging session is taking to much to initialize and once it its disconected the Board wont work in stand alone.  Need to figure out that to do there.
+    
+    The pedning activities is to create a  Button control to switch between effects.
+
+[33mcommit 2a761460549c490456d5f492150645b4da9504f1[m
+Author: Bellomo <uidv7995@contiwan.com>
+Date:   Sat Mar 31 21:05:48 2018 -0600
+
+    Segund Integración del SW alfa
+    
+    Se integráron las funciones de efecto de sonido Vibrato y Distorción.
+    Al parecer vibrato no funciona se levantó el issue #9
+
+[33mcommit a33a659cfe6ddf5404294f1891f0ac9209b530cf[m
+Author: Bellomo <uidv7995@contiwan.com>
+Date:   Sat Mar 31 17:41:34 2018 -0600
+
+    First integration of Alfa and Beta Software
+    
+    Consiste en la inclusion de las funcionalidades de efectos de sonido en la conifiguracíon de sistema provista por MCU expresso
+
+[33mcommit ff5c645a55073bc3048696394e429083133d0ce7[m
+Author: Bellomo <uidv7995@contiwan.com>
+Date:   Fri Mar 30 13:41:25 2018 -0600
+
+    Primera configuración
+    
+    Primera configuración del proyecto:
+    1- Se agregaron los folder y un archivo que describe el contenido de los mismos
+    2- Se agregaron los archios de finanzas, los planes de proyecto, la architectura de HW y SW.
+    3- Se agregón un documento manual para abir la arquitectura de SW y HW-
+    4- Se creo un proyecto en MCU xpresso
+
+[33mcommit 6c6dbef6e11a3b9f464e9cdafce790287a65d0d8[m
+Author: Davibeh <bellomodr@gmail.com>
+Date:   Thu Mar 29 18:29:55 2018 -0600
+
+    Initial commit

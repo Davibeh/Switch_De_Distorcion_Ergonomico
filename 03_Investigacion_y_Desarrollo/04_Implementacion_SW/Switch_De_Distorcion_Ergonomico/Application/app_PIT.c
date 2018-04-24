@@ -20,6 +20,7 @@
 #include "stdtypedef.h"
 #include "Efectos_De_Sonido.h"
 #include "app_PIT.h"
+#include "fsl_gpio.h"
 #include "fsl_pit.h"
 
 
@@ -76,6 +77,8 @@ void app_PIT_Init(void)
  * Function Name: PIT_IRQHandler
  * Description: PIT IRQ Handler
  ***********************************************/
+
+unsigned int popo;
 void PIT_IRQHandler(void)
 {
 
@@ -84,6 +87,14 @@ void PIT_IRQHandler(void)
 		PIT_ClearStatusFlags(PIT, kPIT_Chnl_0, kPIT_TimerFlag);
 		rub_PITAlarm = TRUE; /*Notify the Scheduler that is time to activate another task*/
 		EMG_MainTsk();
+
+		if(popo == 1000){
+			GPIO_TogglePinsOutput(GPIOB, 1u<<19u);
+			popo =0;
+		}else{
+	popo++;
+		}
+
 	}/*if(PIT_GetStatusFlags(PIT, kPIT_Chnl_0))*/
 	else{
 		if(PIT_GetStatusFlags(PIT, kPIT_Chnl_1)){
